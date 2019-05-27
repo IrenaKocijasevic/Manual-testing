@@ -1,0 +1,38 @@
+EXAMPLE #1
+
+Testing Registration Page (test scenario steps)
+1.	Verify that registration button and input fields are present on the registration page
+2.	Verify that you can type in input fields (letters, numbers, symbols)
+3.	Verify that you can’t left blank field, or use only blank space or symbol in mandatory fields
+4.	Verify that clicking submit button after input data in all required fields, submits the data to the server
+5.	Verify that non filling the optional fields and clicking submit button will send (mandatory) data to server without validation error
+6.	Verify that non filling the mandatory fields and click submit button will lead to validation error 
+7.	Verify that entering blank spaces on mandatory fields lead to validation error
+8.	Check minimum and maximum number of characters in textboxes (by specification)
+9.	Check validation on numeric fields by entering alphabets and special characters
+10.	Verify that after making a request to the server and then sending the same request again (same email, username) will lead to validation error
+
+
+Testing Login Page (test scenario steps)
+1.	Verify that login button and/or input fields are present on the page
+2.	Verify that you can type in input fields (letters, numbers, symbols)
+3.	Verify that the login screen is having option to enter username and password with submit button and option of forgot password
+4.	Verify that user is able to login with valid username and password
+5.	Verify that user is not able to login with invalid username and password
+6.	Verify that validation message gets displayed in case user leaves username or password field as blank
+7.	Verify that validation message is displayed in case user exceeds the character limit of the user name and password fields
+8.	Verify that there is reset button to clear the field's text
+9.	Verify if there is checkbox with label "remember password" in the login page
+10.	Verify that the password is in encrypted form when entered
+11.	Verify that there is limit on the total number of unsuccessful attempts
+12.	For security point of view, in case of in correct credentials user is displayed the message like "incorrect username or password" instead of exact message pointing at the field that is incorrect. As message like "incorrect username" will aid hacker in bruteforcing the fields one by one
+13.	Verify the timeout of the login session
+14.	Verify if the password can be copy-pasted or not
+15.	Verify that once logged in, clicking back button doesn't logout user
+16.	Verify if SQL Injection attacks works on login page (how to on https://www.youtube.com/watch?v=LgogIRji28U)
+17.	Verify if XSS vulnerability work on login page  (how to on https://www.youtube.com/watch?v=cl7__XZVodE)
+
+
+
+
+
