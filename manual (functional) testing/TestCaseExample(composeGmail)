@@ -1,0 +1,22 @@
+EXAMPLE #2
+
+Testing Gmail (test scenario steps for compose mail functionality)
+
+1.	Verify that on clicking 'Compose' button, a frame to compose a mail gets displayed.
+2.	Verify that user can enter emailIds in 'To', 'cc' and 'bcc' sections 
+3.	Verify that user have suggestions while typing the emailds based on the existing emailIds in user's email list.
+4.	Verify that user can enter multiple emails.
+5.	Verify that user can type in the 'Subject' textbox.
+6.	Verify that user can type the email in email section.
+7.	Verify that user can format mail using editor-options provided like choosing font theme, font size, bold, italic, underline.
+8.	Verify that user can attach file to the email.
+9.	Verify that user can add images in the email.
+10.	Verify that after entering  all mandatory fields, mail gets delivered to intended receivers.
+11.	Verify that sent mails can be found in 'Sent Mail' sections.
+12.	Verify that mail can be sent to non-gmail  emails.
+13.	Verify that the emails composed but not sent remain in the draft section.
+14.	Verify the maximum number of email recepients that can be entered in 'To', 'cc' and 'bcc' sections.
+15.	Verify the maximum length of text that can be entered in the 'Subject' textbox.
+16.	Verify the content limit of text/images that can be entered and successfully delivered as mail body.
+17.	Verify the maximum size and number of attachement that can be attached with an email.
+
